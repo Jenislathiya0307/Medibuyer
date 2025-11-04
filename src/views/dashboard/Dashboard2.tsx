@@ -1,13 +1,3 @@
-import ColorBox from 'src/components/dashboards/dashboard2/ColorBox';
-import DeveloperCard from 'src/components/dashboards/dashboard2/DeveloperCard';
-import FigmaCard from 'src/components/dashboards/dashboard2/FigmaCard';
-import NewGoal from 'src/components/dashboards/dashboard2/NewGoal';
-import ProductSales from 'src/components/dashboards/dashboard2/ProductSales';
-import ProfitExpense from 'src/components/dashboards/dashboard2/ProfitExpense';
-import TopEmployee from 'src/components/dashboards/dashboard2/TopEmployee';
-import TrafficDistribution from 'src/components/dashboards/dashboard2/TrafficDistribution';
-import UpcommingSchedule from 'src/components/dashboards/dashboard2/UpcommingSchedule';
-import VisitNow from 'src/components/dashboards/dashboard2/VisitNow';
 import Toaster from '../toaster';
 import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 
