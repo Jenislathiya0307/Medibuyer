@@ -1,0 +1,1 @@
+import{r as n}from"./index-n5lagw8Y.js";import{o as l}from"./render-D9E-06xR.js";let u=Symbol();function s(r,e=!0){return Object.assign(r,{[u]:e})}function m(...r){let e=n.useRef(r);n.useEffect(()=>{e.current=r},[r]);let f=l(t=>{for(let o of e.current)o!=null&&(typeof o=="function"?o(t):o.current=t)});return r.every(t=>t==null||t?.[u])?void 0:f}export{s as T,m as y};
