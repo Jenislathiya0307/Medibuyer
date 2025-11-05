@@ -1,0 +1,1 @@
+import{r as t,C as a,j as d}from"./index-n5lagw8Y.js";import{a as i}from"./CardBox-DP5V6wyZ.js";const n=({children:r,className:s})=>{const{isCardShadow:o,isBorderRadius:e}=t.useContext(a);return d.jsx(i,{className:`card ${s}  border border-ld `,style:{borderRadius:`${e}px`},children:r})};export{n as O};
