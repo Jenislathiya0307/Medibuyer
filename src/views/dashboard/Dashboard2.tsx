@@ -38,7 +38,7 @@ const Dashboard2 = () => {
         </div> */}
 
         <div className='text-center bg-white border-gray-200 shadow-md p-6 rounded-[16px]'>
-          <h2 className='text-[24px] mb-3'>Feedback Form 1</h2>
+          <h2 className='text-[24px] mb-3'>Feedback Form 1232</h2>
           <p>This Form is intended for a feature request on Drug Comparison. Please use the Contact Us button for all other day to day queries e.g. Products, Mapping Errors etc.</p>
           <div className='text-left border-gray-200 rounded-[16px] p-6'>
             <form className="mt-6">
