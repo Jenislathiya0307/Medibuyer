@@ -65,7 +65,7 @@ const Demos: DemoTypes[] = [
     type: true,
     img: img2,
     name: "Dark",
-    link: "https://spike-react-tailwind-dark.netlify.app/dashboards/dashboard2",
+    link: "https://spike-react-tailwind-dark.netlify.app/dashboards/feedback-form",
     include: "Demo",
   },
   {
@@ -86,7 +86,7 @@ const Demos: DemoTypes[] = [
     type: true,
     img: img5,
     name: "RTL",
-    link: "https://spike-react-tailwind-rtl.netlify.app/dashboards/dashboard2",
+    link: "https://spike-react-tailwind-rtl.netlify.app/dashboards/feedback-form",
     include: "Demo",
   },
 
@@ -353,7 +353,7 @@ const demosMegamenu: DemosMegaMenuTypes[] = [
   {
     img: img2,
     name: "Dark",
-    link: "https://spike-react-tailwind-dark.netlify.app/dashboards/dashboard2",
+    link: "https://spike-react-tailwind-dark.netlify.app/dashboards/feedback-form",
   },
   {
     img: img3,
@@ -368,7 +368,7 @@ const demosMegamenu: DemosMegaMenuTypes[] = [
   {
     img: img5,
     name: "RTL",
-    link: "https://spike-react-tailwind-rtl.netlify.app/dashboards/dashboard2",
+    link: "https://spike-react-tailwind-rtl.netlify.app/dashboards/feedback-form",
   },
 ];
 const FrontMenu = [

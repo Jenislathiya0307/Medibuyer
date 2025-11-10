@@ -114,7 +114,7 @@ interface SearchType {
 const SearchLinks: SearchType[] = [
   {
     title: 'Dashboard 2',
-    href: '/dashboards/dashboard2',
+    href: '/dashboards/feedback-form',
   },
   {
     title: 'eCommerce',

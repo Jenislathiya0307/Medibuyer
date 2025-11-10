@@ -21,7 +21,7 @@ const Menuitems = [
         title: 'Dashboard 2',
         icon: 'solar:chart-line-duotone',
         id: uniqueId(),
-        href: '/dashboards/dashboard2',
+        href: '/dashboards/feedback-form',
       },
       {
         id: uniqueId(),

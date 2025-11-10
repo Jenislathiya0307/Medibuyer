@@ -1,7 +1,7 @@
 import Toaster from '../toaster';
 import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 
-const Dashboard2 = () => {
+const FeedbackForm = () => {
   return (
     <>
       <Toaster />
@@ -98,4 +98,4 @@ const Dashboard2 = () => {
   );
 };
 
-export default Dashboard2;
+export default FeedbackForm;

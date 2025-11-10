@@ -40,13 +40,6 @@ const SidebarContent: MenuItem[] = [
         url: '/',
       },
       {
-        name: 'Dashboard 2',
-        icon: 'solar:chart-line-duotone',
-        bg: 'secondary',
-        id: uniqueId(),
-        url: '/dashboards/dashboard2',
-      },
-      {
         id: uniqueId(),
         name: 'Front Pages',
         icon: 'solar:smart-speaker-minimalistic-line-duotone',
@@ -95,7 +88,7 @@ const SidebarContent: MenuItem[] = [
         icon: 'solar:chart-line-duotone',
         bg: 'secondary',
         id: uniqueId(),
-        url: '/dashboards/dashboard2',
+        url: '/dashboards/feedback-form',
       },
     ],
   },
