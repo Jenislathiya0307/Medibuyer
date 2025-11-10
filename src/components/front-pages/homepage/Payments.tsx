@@ -45,7 +45,7 @@ export const PaymentOptions = () => {
   ];
   return (
     <>
-      <div className="px-4 pt-12 dark:bg-dark">
+      <div className="px-4 py-12 dark:bg-dark">
         <p className="text-base text-ld opacity-90 text-center mb-8">
           Secured payment with PayPal & Razorpay
         </p>

@@ -9,7 +9,7 @@ import tech4 from "/src/assets/images/front-pages/technology/typescript.svg";
 import tech5 from "/src/assets/images/front-pages/technology/tailwind.svg";
 import tech6 from "/src/assets/images/front-pages/technology/headless-ui.svg";
 import tech7 from "/src/assets/images/front-pages/technology/shadcn.svg";
-import mainbanner from "/src/assets/images/front-pages/background/main-banner.png";
+import mainbanner from "/src/assets/images/front-pages/background/hero-bg.svg";
 import { Button, Tooltip } from "flowbite-react";
 import { Link } from "react-router";
 
@@ -61,9 +61,10 @@ const MainBanner = () => {
           <div className="grid grid-cols-12 gap-6  items-center ">
             <div className="xl:col-span-6 col-span-12 lg:text-start text-center">
               <h1 className="lg:text-56 text-4xl text-ld dark:text-white lg:leading-[64px] leading-[50px]">
-                <b>Spike - a feature-rich</b> dashboard built for developers.
+                The Ultimate Price Comparison Software for Pharmacies
               </h1>
-              <div className="sm:flex text-center mx-auto block items-center gap-3 lg:justify-start justify-center py-6">
+              <p className="my-[20px] text-[16px]">Trusted by over 2,650 Pharmacies in the UK. <br/>£800 average saving per branch</p>
+              {/* <div className="sm:flex text-center mx-auto block items-center gap-3 lg:justify-start justify-center py-6">
                 <div className="flex flex-row-reverse lg:justify-start justify-center ps-3">
                   {userImg.map((item, index) => (
                     <div className="-ms-3 h-10 w-10 relative z-5" key={index}>
@@ -78,8 +79,8 @@ const MainBanner = () => {
                 <h5 className="text-17 text-ld font-medium opacity-80 md:pt-0 pt-3">
                   52,589+ developers & agencies using our templates
                 </h5>
-              </div>
-              <ul className="flex flex-wrap lg:justify-start justify-center gap-5 pb-7 md:pt-4 ml-0">
+              </div> */}
+              {/* <ul className="flex flex-wrap lg:justify-start justify-center gap-5 pb-7 md:pt-4 ml-0">
                 {Technology.map((item, index) => (
                   <Tooltip
                     content={item.tooltip}
@@ -95,7 +96,7 @@ const MainBanner = () => {
                     </li>
                   </Tooltip>
                 ))}
-              </ul>
+              </ul> */}
               <div className="flex lg:justify-start justify-center">
                 <Button
                   color={"primary"}
@@ -108,8 +109,8 @@ const MainBanner = () => {
               </div>
             </div>
             <div className="lg:col-span-6 col-span-12 xl:block hidden">
-              <div className="min-w-[1300px] max-h-[700px] h-[calc(100vh_-_100px)] overflow-hidden ">
-                <img src={mainbanner} className="rtl:scale-x-[-1]" alt="banner" />
+              <div className="max-h-[700px] h-[calc(100vh_-_100px)] overflow-hidden ">
+                <img src={mainbanner} className="w-full" alt="banner" />
               </div>
             </div>
           </div>

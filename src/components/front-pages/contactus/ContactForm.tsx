@@ -5,7 +5,8 @@ import CardBox from "../../shared/CardBox";
 const ContactForm = () => {
   return (
     <>
-      <div className="container mx-auto mt-30">
+      <div className="container mx-auto my-[100px]">
+        <h2 className="sm:text-44 text-3xl font-bold leading-[48px]! text-dark dark:text-white text-center mb-14">Contact and Support</h2>
         <div className="grid grid-cols-12 lg:gap-6 gap-6">
           <div className="lg:col-span-4 col-span-12">
             <div className="overflow-hidden rounded-lg bg-primary relative p-6 after:absolute after:content-[''] after:bg-[url('/src/assets/images/front-pages/background/contact-icon.png')] after:bg-no-repeat after:bg-right-top after:top-0 after:right-0   after:w-[325px] after:h-[325px]">

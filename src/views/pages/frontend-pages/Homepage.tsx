@@ -10,21 +10,25 @@ import OurTeam from 'src/components/front-pages/homepage/OurTeam';
 import { Packages } from 'src/components/front-pages/homepage/Packages';
 import { PaymentOptions } from 'src/components/front-pages/homepage/Payments';
 import PurchaseTemp from 'src/components/front-pages/homepage/PurchaseTemp';
+import FeatureOverview from 'src/components/front-pages/homepage/FeatureOverview';
+import AboutUs from 'src/components/front-pages/homepage/AboutUs';
 
 const Homepage = () => {
   return (
     <>
       <MainBanner />
+      <AboutUs />
       <OurClients />
       <FeatureTabs />
-      <OurTeam />
-      <ContactBar />
+      {/* <OurTeam /> */}
+      {/* <ContactBar /> */}
+      <FeatureOverview />
       <ClientReviews />
-      <Companies />
+      {/* <Companies /> */}
       <Highlights />
       <Packages />
       <PaymentOptions />
-      <FAQ />
+      {/* <FAQ /> */}
       <PurchaseTemp />
     </>
   );

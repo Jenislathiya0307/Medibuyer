@@ -72,7 +72,7 @@ const FeatureTabs = () => {
 
   return (
     <>
-      <div className="bg-lightprimary/40 lg:py-24 py-12">
+      <div className="lg:py-24 py-12">
         <div className="container mx-auto">
           {/* Tabs */}
           <div className="overflow-x-auto ">

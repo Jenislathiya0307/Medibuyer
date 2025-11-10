@@ -1,4 +1,3 @@
-
 import leader1 from "/src/assets/images/front-pages/team/leader1.png";
 import leader2 from "/src/assets/images/front-pages/team/leader2.png";
 import leader3 from "/src/assets/images/front-pages/team/leader3.png";

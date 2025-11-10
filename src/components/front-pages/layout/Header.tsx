@@ -41,7 +41,7 @@ const FrontHeader = () => {
           <div className="xl:block hidden">
             <Navigation />
           </div>
-          <Button as={Link} to="/auth/auth1/login" className="xl:flex hidden px-8"  color={"primary"}>
+          <Button as={Link} to="/auth/auth1/login" className="xl:flex hidden px-8 uppercase"  color={"primary"}>
             Log in
           </Button>
           <MobileMenu/>

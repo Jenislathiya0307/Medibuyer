@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import DarkLogo from '/src/assets/images/logos/new-logo.jpg';
+import DarkLogo from '/src/assets/images/logos/new-logo.png';
 import LightLogo from '/src/assets/images/logos/light-logo.svg';
 import DarkLogoRtl from '/src/assets/images/logos/logo-dark-rtl.svg';
 import LightLogoRtl from '/src/assets/images/logos/logo-light-rtl.svg';

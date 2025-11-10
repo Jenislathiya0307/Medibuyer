@@ -49,8 +49,7 @@ export const Packages = () => {
                 Fair pricing for everyone.
               </h2>
               <p className="text-17 leading-[32px] pt-4 text-darklink">
-                Our robust analytics offer rich insights into the information buyers want, informing
-                where teams.
+                Your investment in the subscription typically covers its cost in no time.
               </p>
             </div>
           </div>
@@ -129,14 +128,14 @@ export const Packages = () => {
                     <div className="mt-8">
                       {item.isPopular ? (
                         <Button size={'lg'} color={'primary'} className="py-0 font-medium  w-full">
-                          Purchase Now
+                          Get started
                         </Button>
                       ) : (
                         <Button
                           size={'lg'}
                           className="py-0 bg-dark hover:bg-primary text-white font-medium  w-full"
                         >
-                          Purchase Now
+                          Get started
                         </Button>
                       )}
                     </div>

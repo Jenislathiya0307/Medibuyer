@@ -54,7 +54,7 @@ const ClientReviews = () => {
   };
 
   return (
-    <div className="lg:pt-24 pt-14 pb-14 dark:bg-dark">
+    <div className="pt-14 pb-14 dark:bg-dark">
       <div className="container mx-auto">
         <div className="grid grid-cols-12 gap-6">
           <div className="lg:col-span-5 col-span-12">

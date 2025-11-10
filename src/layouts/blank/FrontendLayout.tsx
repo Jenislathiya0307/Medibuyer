@@ -1,4 +1,5 @@
 import AnnouncementBar from 'src/components/front-pages/layout/AnnouncementBar';
+import ContactForm from 'src/components/front-pages/contactus/ContactForm';
 import { Footer } from 'src/components/front-pages/layout/Footer';
 import FrontHeader from 'src/components/front-pages/layout/Header';
 import { ThemeProvider } from 'flowbite-react';
@@ -17,11 +18,12 @@ const FrontendLayout = () => {
     <>
       <div className="frontend-page bg-white dark:bg-dark">
         <ThemeProvider theme={customTheme}>
-          <AnnouncementBar />
+          {/* <AnnouncementBar /> */}
           <FrontHeader />
           <ScrollToTop>
             <Outlet />
           </ScrollToTop>
+          <ContactForm />
           <Footer />
         </ThemeProvider>
       </div>
