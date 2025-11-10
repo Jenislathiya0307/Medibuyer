@@ -1,59 +1,9 @@
-
-import user1 from "/src/assets/images/profile/user-2.jpg";
-import user2 from "/src/assets/images/profile/user-3.jpg";
-import user3 from "/src/assets/images/profile/user-4.jpg";
-
-import tech1 from "/src/assets/images/front-pages/technology/react.svg";
-import tech2 from "/src/assets/images/front-pages/technology/flowbite.svg";
-import tech4 from "/src/assets/images/front-pages/technology/typescript.svg";
-import tech5 from "/src/assets/images/front-pages/technology/tailwind.svg";
-import tech6 from "/src/assets/images/front-pages/technology/headless-ui.svg";
-import tech7 from "/src/assets/images/front-pages/technology/shadcn.svg";
 import mainbanner from "/src/assets/images/front-pages/background/hero-bg.svg";
-import { Button, Tooltip } from "flowbite-react";
+import { Button } from "flowbite-react";
 import { Link } from "react-router";
 
 
 const MainBanner = () => {
-  const userImg = [
-    {
-      user: user1,
-    },
-    {
-      user: user2,
-    },
-    {
-      user: user3,
-    },
-  ];
-
-  const Technology = [
-    {
-      tech: tech1,
-      tooltip: "React",
-    },
-    {
-      tech: tech2,
-      tooltip: "Flowbite React",
-    },
-
-    {
-      tech: tech4,
-      tooltip: "Typescript",
-    },
-    {
-      tech: tech5,
-      tooltip: "Tailwind css",
-    },
-    {
-      tech: tech6,
-      tooltip: "Headless Ui",
-    },
-    {
-      tech: tech7,
-      tooltip: "Shadcn Ui",
-    },
-  ];
   return (
     <>
       <div className="bg-lightprimary/40 ">

@@ -1,4 +1,3 @@
-import AnnouncementBar from 'src/components/front-pages/layout/AnnouncementBar';
 import ContactForm from 'src/components/front-pages/contactus/ContactForm';
 import { Footer } from 'src/components/front-pages/layout/Footer';
 import FrontHeader from 'src/components/front-pages/layout/Header';

@@ -1,4 +1,3 @@
-import { Icon } from "@iconify/react";
 import comp1 from "/src/assets/images/front-pages/componies/1aah_logo.jpg";
 import comp2 from "/src/assets/images/front-pages/componies/2alliance_logo.jpg";
 import comp3 from "/src/assets/images/front-pages/componies/3phoenix_logo.jpg";

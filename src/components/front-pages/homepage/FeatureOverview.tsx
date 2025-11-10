@@ -1,6 +1,5 @@
 import staffControl from "/src/assets/images/front-pages/features-overview/Staff Control and Safeguards.png";
 import ordering from "/src/assets/images/front-pages/features-overview/ordering.png";
-import reporting from "/src/assets/images/front-pages/features-overview/reporting.png";
 import mobileIntegration from "/src/assets/images/front-pages/features-overview/Mobile and Integration.png";
 
 const FeatureOverview = () => {

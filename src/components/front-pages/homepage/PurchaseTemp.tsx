@@ -2,7 +2,6 @@
 import { Button } from "flowbite-react";
 import leftWidget from "/src/assets/images/front-pages/background/left-widget.png";
 import rightWidget from "/src/assets/images/front-pages/background/right-widget.png";
-import Logo from "src/layouts/full/shared/logo/Logo";
 import { Link } from "react-router";
 
 

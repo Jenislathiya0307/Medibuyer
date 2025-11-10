@@ -1,40 +1,7 @@
-
-import { Tooltip } from "flowbite-react";
-import logo from "/src/assets/images/logos/logo-icon.svg";
 import LightLogo from '/src/assets/images/logos/new-logo.png';
 import { Link } from "react-router";
-import facebook from "/src/assets/images/front-pages/background/facebook.svg"
-import twitter from "/src/assets/images/front-pages/background/twitter.svg"
-import instagram from "/src/assets/images/front-pages/background/instagram.svg"
 
 export const Footer = () => {
-  const navLinks1 = [
-    {
-      key: "link1",
-      title: "Cards",
-      link: "/widgets/cards",
-    },
-    {
-      key: "link2",
-      title: "Pricing",
-      link: "/theme-pages/pricing",
-    },
-    {
-      key: "link3",
-      title: "Account Settings",
-      link: "/theme-pages/account-settings",
-    },
-    {
-      key: "link4",
-      title: "FAQ",
-      link: "/theme-pages/faq",
-    },
-    {
-      key: "link5",
-      title: "Casl",
-      link: "/theme-pages/casl",
-    },
-  ];
   const navLinks2 = [
     {
       key: "home",

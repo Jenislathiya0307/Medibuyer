@@ -1,6 +1,6 @@
 
 import { Icon } from "@iconify/react";
-import { Link } from "react-router";
+
 const Feature = [
   {
     icon: "tabler:chart-bubble",
