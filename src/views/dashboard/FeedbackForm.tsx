@@ -6,37 +6,6 @@ const FeedbackForm = () => {
     <>
       <Toaster />
       <div className="grid">
-        {/* <div className="lg:col-span-6 col-span-12">
-          <VisitNow />
-        </div>
-        <div className="lg:col-span-6 col-span-12">
-          <ColorBox />
-        </div>
-        <div className="lg:col-span-8 col-span-12">
-          <ProfitExpense />
-        </div>
-        <div className="lg:col-span-4 col-span-12">
-          <ProductSales />
-        </div>
-        <div className="lg:col-span-3 col-span-12">
-          <NewGoal />
-          <div className="mt-6">
-            <DeveloperCard />
-          </div>
-        </div>
-        <div className="lg:col-span-6 col-span-12">
-          <TrafficDistribution />{' '}
-        </div>
-        <div className="lg:col-span-3 col-span-12">
-          <FigmaCard />
-        </div>
-        <div className="lg:col-span-4 col-span-12">
-          <UpcommingSchedule />
-        </div>
-        <div className="lg:col-span-8 col-span-12">
-          <TopEmployee />
-        </div> */}
-
         <div className='text-center bg-white border-gray-200 shadow-md p-6 rounded-[16px]'>
           <h2 className='text-[24px] mb-3'>Feedback Form 12</h2>
           <p>This Form is intended for a feature request on Drug Comparison. Please use the Contact Us button for all other day to day queries e.g. Products, Mapping Errors etc.</p>

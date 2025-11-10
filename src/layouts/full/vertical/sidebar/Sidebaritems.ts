@@ -90,6 +90,13 @@ const SidebarContent: MenuItem[] = [
         id: uniqueId(),
         url: '/dashboards/feedback-form',
       },
+      {
+        name: 'Video Tutorials',
+        icon: 'solar:chart-line-duotone',
+        bg: 'secondary',
+        id: uniqueId(),
+        url: '/dashboards/feedback-form',
+      },
     ],
   },
   {

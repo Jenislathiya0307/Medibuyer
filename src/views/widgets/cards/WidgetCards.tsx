@@ -1,4 +1,3 @@
-import ColorBox from "src/components/dashboards/dashboard2/ColorBox";
 import BlogCards from "src/components/widgets/cards/BlogCards";
 import GiftCards from "src/components/widgets/cards/GiftCards";
 import MusicCards from "src/components/widgets/cards/MusicCards";
@@ -28,7 +27,7 @@ const WidgetCards = () => {
       <BreadcrumbComp title="Cards" items={BCrumb} />
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12">
-          <ColorBox />
+          
         </div>
         <div className="col-span-12">
           <BlogCards />

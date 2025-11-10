@@ -9,7 +9,7 @@ const Toaster = () => {
         <div className="flex gap-2 align-baseline">
           <IconAlertCircle size={20} />
           <div>
-            <h5 className=" text-white text-base">Welcome to Spike!</h5>
+            <h5 className=" text-white text-base">Welcome to MediBuyer!</h5>
             <p className="text-sm text-white/90">Easy to customize the Template!!!</p>
           </div>
         </div>
