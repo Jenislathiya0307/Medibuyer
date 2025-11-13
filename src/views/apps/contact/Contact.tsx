@@ -15,8 +15,8 @@ export const Contact = () => {
       ];
     return (
         <>
-              <BreadcrumbComp title="Contact App" items={BCrumb} />
-              <ContactApp />
+          <BreadcrumbComp title="Contact App" items={BCrumb} />
+          <ContactApp />
         </>
     )
 }

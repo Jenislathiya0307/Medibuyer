@@ -113,7 +113,7 @@ interface SearchType {
 
 const SearchLinks: SearchType[] = [
   {
-    title: 'Dashboard 2',
+    title: 'Feedback Form',
     href: '/dashboards/feedback-form',
   },
   {

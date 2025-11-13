@@ -16,13 +16,6 @@ const Menuitems = [
         id: uniqueId(),
         href: '/',
       },
-
-      {
-        title: 'Dashboard 2',
-        icon: 'solar:chart-line-duotone',
-        id: uniqueId(),
-        href: '/dashboards/feedback-form',
-      },
       {
         id: uniqueId(),
         title: 'Front Pages',
@@ -68,7 +61,6 @@ const Menuitems = [
       },
     ],
   },
-
   {
     id: uniqueId(),
     title: 'Apps',

@@ -10,8 +10,11 @@ const BlankLayout = Loadable(lazy(() => import('../layouts/blank/BlankLayout')))
 const FrontendPageLayout = Loadable(lazy(() => import('../layouts/blank/FrontendLayout')));
 
 const Dashboard1 = Loadable(lazy(() => import('../views/dashboard/Dashboard1')));
-const FeedbackForm = Loadable(lazy(() => import('../views/dashboard/FeedbackForm')));
-const Video_Tutorials = Loadable(lazy(() => import('../views/pages/frontend-pages/Video_Tutorials')));
+const FeedbackForm = Loadable(lazy(() => import('../views/dashboard/Feedback_Form')));
+const Video_Tutorials = Loadable(lazy(() => import('../views/dashboard/Video_Tutorials')));
+const Contact_Us = Loadable(lazy(() => import('../views/dashboard/Contact_Us')));
+const Profit_Loss_Report = Loadable(lazy(() => import('../views/dashboard/Profit_Loss_Report')));
+const Smart_Upload_Panel = Loadable(lazy(() => import('../views/dashboard/Smart_Upload_Panel')));
 
 // front end pages
 const Homepage = Loadable(lazy(() => import('../views/pages/frontend-pages/Homepage')));
@@ -239,8 +242,11 @@ const Router = [
     element: <FullLayout />,
     children: [
       { path: '/', exact: true, element: <Dashboard1 /> },
-      { path: '/feedback-form', exact: true, element: <FeedbackForm /> },
-      { path: '/video-tutorials', exact: true, element: <Video_Tutorials /> },
+      { path: '/dashboards/feedback-form', exact: true, element: <FeedbackForm /> },
+      { path: '/dashboards/video-tutorials', exact: true, element: <Video_Tutorials /> },
+      { path: '/dashboards/contact-us', exact: true, element: <Contact_Us /> },
+      { path: '/dashboards/more/profit-loss-report', exact: true, element: <Profit_Loss_Report /> },
+      { path: '/dashboards/more/smart-upload-panel', exact: true, element: <Smart_Upload_Panel /> },
       { path: '*', element: <Navigate to="/auth/404" /> },
 
       { path: '/apps/contacts', element: <Contact /> },
