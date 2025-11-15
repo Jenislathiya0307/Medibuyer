@@ -84,13 +84,6 @@ const SidebarContent: MenuItem[] = [
         ],
       },
       {
-        name: 'Feedback Form',
-        icon: 'solar:chart-line-duotone',
-        bg: 'secondary',
-        id: uniqueId(),
-        url: '/dashboards/feedback-form',
-      },
-      {
         name: 'Video Tutorials',
         icon: 'solar:chart-line-duotone',
         bg: 'success',
@@ -139,6 +132,11 @@ const SidebarContent: MenuItem[] = [
         id: uniqueId(),
         url: 'javascript:void(0)',
         children: [
+          {
+            name: 'Feedback Form',
+            id: uniqueId(),
+            url: '/dashboards/more/feedback-form',
+          },
           {
             name: 'Profit & Loss Report',
             id: uniqueId(),
