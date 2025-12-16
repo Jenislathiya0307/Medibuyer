@@ -63,11 +63,11 @@ const Header = ({ layoutType }: HeaderPropsType) => {
   return (
     <>
       <header
-        className={`sticky top-0 z-[5] 
+        className={`z-[5] 
           ${activeLayout == 'vertical' ? 'rounded-lg' : 'xl:rounded-none rounded-lg w-full'} 
         ${isLayout == 'full' || activeLayout == 'horizontal' ? `!max-w-full ${activeLayout == 'vertical' ? 'sm:mx-5 sm:px-0 px-0' : 'px-0'} ` : 'container md:px-5 px-0'} ${
           isSticky
-            ? 'bg-white dark:bg-dark shadow-md fixed w-full'
+            ? 'bg-white dark:bg-dark shadow-md w-full'
             : 'bg-white dark:bg-dark shadow-md '
         }`}
       >
