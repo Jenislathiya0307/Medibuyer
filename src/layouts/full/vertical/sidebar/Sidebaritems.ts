@@ -91,6 +91,13 @@ const SidebarContent: MenuItem[] = [
         url: '/dashboards/video-tutorials',
       },
       {
+        name: 'Order Panel',
+        icon: 'solar:chart-line-duotone',
+        bg: 'warning',
+        id: uniqueId(),
+        url: '/dashboards/order-panel',
+      },
+      {
         name: 'Order History',
         icon: 'solar:chart-line-duotone',
         bg: 'info',
@@ -109,14 +116,14 @@ const SidebarContent: MenuItem[] = [
         icon: 'solar:chart-line-duotone',
         bg: 'primary',
         id: uniqueId(),
-        url: '/dashboards/bulk-ordering',
+        url: '/dashboards/bulk-ordering-panel',
       },
       {
         name: 'Excess Stock',
         icon: 'solar:chart-line-duotone',
         bg: 'indigo',
         id: uniqueId(),
-        url: '/dashboards/excess-stock',
+        url: '/dashboards/excess-stock-panel',
       },
       {
         name: 'Contact Us',
@@ -146,6 +153,31 @@ const SidebarContent: MenuItem[] = [
             name: 'Smart Upload Panel',
             id: uniqueId(),
             url: '/dashboards/more/smart-upload-panel',
+          },
+          {
+            name: 'Availability Tracker Panel',
+            id: uniqueId(),
+            url: '/dashboards/more/availability-tracker-panel',
+          },
+          {
+            name: 'Supplier Management',
+            id: uniqueId(),
+            url: '/dashboards/more/supplier-management',
+          },
+          {
+            name: 'Pack Optimisation Panel',
+            id: uniqueId(),
+            url: '/dashboards/more/pack-optimisation-panel',
+          },
+          {
+            name: 'Returns Management',
+            id: uniqueId(),
+            url: '/dashboards/more/returns-management',
+          },
+          {
+            name: 'Product Management Tool',
+            id: uniqueId(),
+            url: '/dashboards/more/product-management-tool',
           },
         ],
       },

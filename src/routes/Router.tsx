@@ -10,12 +10,21 @@ const BlankLayout = Loadable(lazy(() => import('../layouts/blank/BlankLayout')))
 const FrontendPageLayout = Loadable(lazy(() => import('../layouts/blank/FrontendLayout')));
 
 const Dashboard1 = Loadable(lazy(() => import('../views/dashboard/Dashboard1')));
+const Order_Panel = Loadable(lazy(() => import('../views/dashboard/Order_Panel')));
+const Order_History = Loadable(lazy(() => import('../views/dashboard/Order_History')));
+const Bulk_Ordering_Panel = Loadable(lazy(() => import('../views/dashboard/Bulk_Ordering_Panel')));
+const Excess_Stock_Panel = Loadable(lazy(() => import('../views/dashboard/Excess_Stock_Panel')));
 const OutOf_Stock_Panel = Loadable(lazy(() => import('../views/dashboard/OutOf_Stock_Panel')));
 const FeedbackForm = Loadable(lazy(() => import('../views/dashboard/Feedback_Form')));
 const Video_Tutorials = Loadable(lazy(() => import('../views/dashboard/Video_Tutorials')));
 const Contact_Us = Loadable(lazy(() => import('../views/dashboard/Contact_Us')));
 const Profit_Loss_Report = Loadable(lazy(() => import('../views/dashboard/Profit_Loss_Report')));
 const Smart_Upload_Panel = Loadable(lazy(() => import('../views/dashboard/Smart_Upload_Panel')));
+const Availability_Tracker_Panel = Loadable(lazy(() => import('../views/dashboard/Availability_Tracker_Panel')));
+const Supplier_Management = Loadable(lazy(() => import('../views/dashboard/Supplier_Management')));
+const Pack_Optimisation_Panel = Loadable(lazy(() => import('../views/dashboard/Pack_Optimisation_Panel')));
+const Returns_Management = Loadable(lazy(() => import('../views/dashboard/Returns_Management')));
+const Product_Management_Tool = Loadable(lazy(() => import('../views/dashboard/Product_Management_Tool')));
 
 // front end pages
 const Homepage = Loadable(lazy(() => import('../views/pages/frontend-pages/Homepage')));
@@ -244,11 +253,20 @@ const Router = [
     children: [
       { path: '/', exact: true, element: <Dashboard1 /> },
       { path: '/dashboards/out-of-stock-panel', exact: true, element: <OutOf_Stock_Panel /> },
+      { path: '/dashboards/order-panel', exact: true, element: <Order_Panel /> },
+      { path: '/dashboards/order-history', exact: true, element: <Order_History /> },
+      { path: '/dashboards/bulk-ordering-panel', exact: true, element: <Bulk_Ordering_Panel /> },
+      { path: '/dashboards/excess-stock-panel', exact: true, element: <Excess_Stock_Panel /> },
       { path: '/dashboards/video-tutorials', exact: true, element: <Video_Tutorials /> },
       { path: '/dashboards/contact-us', exact: true, element: <Contact_Us /> },
       { path: '/dashboards/more/feedback-form', exact: true, element: <FeedbackForm /> },
       { path: '/dashboards/more/profit-loss-report', exact: true, element: <Profit_Loss_Report /> },
       { path: '/dashboards/more/smart-upload-panel', exact: true, element: <Smart_Upload_Panel /> },
+      { path: '/dashboards/more/availability-tracker-panel', exact: true, element: <Availability_Tracker_Panel /> },
+      { path: '/dashboards/more/supplier-management', exact: true, element: <Supplier_Management /> },
+      { path: '/dashboards/more/pack-optimisation-panel', exact: true, element: <Pack_Optimisation_Panel /> },
+      { path: '/dashboards/more/returns-management', exact: true, element: <Returns_Management /> },
+      { path: '/dashboards/more/product-management-tool', exact: true, element: <Product_Management_Tool /> },
       { path: '*', element: <Navigate to="/auth/coming-soon" /> },
 
       { path: '/apps/contacts', element: <Contact /> },
