@@ -2,7 +2,7 @@ const PackOptimisationPanel = () => {
 
   return (
     <div className="bg-white border-gray-200 shadow-md p-6 rounded-[16px]">
-        <div className="border rounded-md border-ld overflow-hidden p-2 mb-5">
+        <div className="border rounded-md border-ld overflow-hidden p-2">
             <div className="flex gap-2 items-center justify-between">
                 <div className="flex gap-2">
                     <button className="col-span-3 group relative h-12 overflow-hidden overflow-x-hidden bg-primary px-8 py-2 text-neutral-50 border-1 border-primary rounded-md">
@@ -32,9 +32,9 @@ const PackOptimisationPanel = () => {
                 </div>
             </div>
             <p className="text-center text-black my-5">Any products added on this page will be blocked and excluded from the Pack Size Optimisation comparison.</p>
-            <div className="rounded overflow-hidden">
+            <div className="border rounded-md border-ld overflow-hidden h-[400px] overflow-y-auto">
                 <table className="min-w-[1000px] w-full table-auto border-collapse text-sm">
-                <thead>
+                <thead className="sticky top-0 z-10">
                     <tr className="bg-sky-600 text-white text-[14px]">
                     <th className="p-2 border-r-1 border-gray-300 uppercase">
                         <input type="checkbox" name="" id="" />
@@ -62,7 +62,7 @@ const PackOptimisationPanel = () => {
                 </tbody>
                 </table>
             </div> 
-            <div className="border rounded-md border-ld overflow-hidden p-2 flex justify-center gap-2 mt-5 w-full">
+            <div className="border rounded-md border-ld overflow-hidden p-2 flex justify-center gap-2 mt-2 w-full">
                 <button className="max-w-[50%] w-full group relative h-12 overflow-hidden overflow-x-hidden bg-red-500 px-10 py-2 text-neutral-50 border-1 border-red-500 rounded-md">
                     <span className="relative z-10 group-hover:text-red-500 uppercase">Delete</span>
                     <span className="absolute inset-0 overflow-hidden">

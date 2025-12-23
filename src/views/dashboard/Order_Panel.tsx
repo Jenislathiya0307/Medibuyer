@@ -1,4 +1,4 @@
-import OrderHistory from 'src/components/dashboards/dashboard1/OrderPanel';
+import OrderPanel from 'src/components/dashboards/dashboard1/OrderPanel';
 import BreadcrumbComp from "src/layouts/full/shared/breadcrumb/BreadcrumbComp";
 
 const BCrumb = [
@@ -15,7 +15,7 @@ const Order_Panel = () => {
   return (
     <>
       <BreadcrumbComp title="Order Panel" items={BCrumb} />
-      <OrderHistory />
+      <OrderPanel />
     </>
   );
 };

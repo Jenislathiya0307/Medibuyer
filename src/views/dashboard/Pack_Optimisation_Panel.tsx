@@ -1,4 +1,4 @@
-import OrderHistory from 'src/components/dashboards/dashboard1/PackOptimisationPanel';
+import PackOptimisationPanel from 'src/components/dashboards/dashboard1/PackOptimisationPanel';
 import BreadcrumbComp from "src/layouts/full/shared/breadcrumb/BreadcrumbComp";
 
 const BCrumb = [
@@ -15,7 +15,7 @@ const Pack_Optimisation_Panel = () => {
   return (
     <>
       <BreadcrumbComp title="Pack Optimisation Panel" items={BCrumb} />
-      <OrderHistory />
+      <PackOptimisationPanel />
     </>
   );
 };

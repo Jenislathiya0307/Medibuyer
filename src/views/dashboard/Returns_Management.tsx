@@ -1,4 +1,4 @@
-import OrderHistory from 'src/components/dashboards/dashboard1/ReturnsManagement';
+import ReturnsManagement from 'src/components/dashboards/dashboard1/ReturnsManagement';
 import BreadcrumbComp from "src/layouts/full/shared/breadcrumb/BreadcrumbComp";
 
 const BCrumb = [
@@ -15,7 +15,7 @@ const Returns_Management = () => {
   return (
     <>
       <BreadcrumbComp title="Returns Management" items={BCrumb} />
-      <OrderHistory />
+      <ReturnsManagement />
     </>
   );
 };

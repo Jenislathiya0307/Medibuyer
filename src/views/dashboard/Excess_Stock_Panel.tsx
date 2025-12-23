@@ -1,4 +1,4 @@
-import OrderHistory from 'src/components/dashboards/dashboard1/BulkOrderingPanel';
+import ExcessStockPanel from 'src/components/dashboards/dashboard1/ExcessStockPanel';
 import BreadcrumbComp from "src/layouts/full/shared/breadcrumb/BreadcrumbComp";
 
 const BCrumb = [
@@ -15,7 +15,7 @@ const Excess_Stock_Panel = () => {
   return (
     <>
       <BreadcrumbComp title="Excess Stock Panel" items={BCrumb} />
-      <OrderHistory />
+      <ExcessStockPanel />
     </>
   );
 };

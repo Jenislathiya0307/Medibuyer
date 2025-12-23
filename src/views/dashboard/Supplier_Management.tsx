@@ -1,4 +1,4 @@
-import OrderHistory from 'src/components/dashboards/dashboard1/SupplierManagement';
+import SupplierManagement from 'src/components/dashboards/dashboard1/SupplierManagement';
 import BreadcrumbComp from "src/layouts/full/shared/breadcrumb/BreadcrumbComp";
 
 const BCrumb = [
@@ -15,7 +15,7 @@ const Supplier_Management = () => {
   return (
     <>
       <BreadcrumbComp title="Supplier Management" items={BCrumb} />
-      <OrderHistory />
+      <SupplierManagement />
     </>
   );
 };

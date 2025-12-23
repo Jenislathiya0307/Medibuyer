@@ -2,7 +2,7 @@ import { X } from "lucide-react";
 import { FaRegCircleQuestion } from "react-icons/fa6";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { TbShoppingCartCopy } from "react-icons/tb";
-import { Dropdown, DropdownDivider, DropdownItem } from "flowbite-react";
+import { Dropdown, DropdownItem } from "flowbite-react";
 import { FaFileCsv } from "react-icons/fa6";
 import { IoPrintSharp } from "react-icons/io5";
 import { IoSettingsSharp } from "react-icons/io5";
@@ -31,19 +31,16 @@ const AvailabilityTrackerPanel = () => {
                         <Dropdown label="- All -" className="bg-primary rounded-md">
                             <DropdownItem className="py-1 px-2">Sort by Time</DropdownItem>
                             <DropdownItem className="py-1 px-2">Sort by Unread</DropdownItem>
-                            <DropdownDivider />
                             <DropdownItem className="py-1 px-2">Sort by Favourites</DropdownItem>
                         </Dropdown>
                         <Dropdown label="- All -" className="bg-primary rounded-md">
                             <DropdownItem className="py-1 px-2">Sort by Time</DropdownItem>
                             <DropdownItem className="py-1 px-2">Sort by Unread</DropdownItem>
-                            <DropdownDivider />
                             <DropdownItem className="py-1 px-2">Sort by Favourites</DropdownItem>
                         </Dropdown>
                         <Dropdown label="- Filter -" className="bg-primary rounded-md">
                             <DropdownItem className="py-1 px-2">Sort by Time</DropdownItem>
                             <DropdownItem className="py-1 px-2">Sort by Unread</DropdownItem>
-                            <DropdownDivider />
                             <DropdownItem className="py-1 px-2">Sort by Favourites</DropdownItem>
                         </Dropdown>
                     </div>
