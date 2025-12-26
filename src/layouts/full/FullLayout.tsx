@@ -13,14 +13,14 @@ const FullLayout: FC = () => {
     <>
       <div
         className={`flex w-full min-h-screen  bg-lightprimary/40 dark:bg-info/5  ${
-          activeLayout == 'vertical' ? ' ps-5 xl:pe-0 pe-5 pt-5' : 'xl:p-0 p-5'
+          activeLayout == 'vertical' ? ' ps-5 pe-5 pt-5' : 'xl:p-0 p-5'
         }  `}
       >
         <div className="page-wrapper flex w-full  ">
           {/* Header/sidebar */}
 
           {activeLayout == 'vertical' ? <Sidebar /> : null}
-          <div className="page-wrapper-sub flex flex-col w-full ">
+          <div className="page-wrapper-sub flex flex-col w-full ps-[24px]">
             {/* Top Header  */}
             {activeLayout == 'horizontal' ? (
               <Header layoutType="horizontal" />

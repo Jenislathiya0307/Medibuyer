@@ -72,6 +72,12 @@ const Email = Loadable(lazy(() => import('../views/apps/email/Email')));
 const Tickets = Loadable(lazy(() => import('../views/apps/tickets/Tickets')));
 const CreateTickets = Loadable(lazy(() => import('../views/apps/tickets/CreateTickets')));
 const Kanban = Loadable(lazy(() => import('../views/apps/kanban/Kanban')));
+const Daily_Emails = Loadable(lazy(() => import('../views/apps/user-profile-two/Daily_Emails')));
+const Common_Settings = Loadable(lazy(() => import('../views/apps/user-profile-two/Common_Settings')));
+const Order_Panel_Settings = Loadable(lazy(() => import('../views/apps/user-profile-two/Order_Panel_Settings')));
+const Supplier_Spend_Settings = Loadable(lazy(() => import('../views/apps/user-profile-two/Supplier_Spend_Settings')));
+const Profile_Contact_Us = Loadable(lazy(() => import('../views/apps/user-profile-two/Contact_Us')));
+const Change_Password = Loadable(lazy(() => import('../views/apps/user-profile-two/Change_Password')));
 
 // theme pages
 const RollbaseCASL = Loadable(lazy(() => import('../views/pages/rollbaseCASL/RollbaseCASL')));
@@ -286,6 +292,12 @@ const Router = [
       { path: '/apps/user-profile/friends', element: <Friends /> },
       { path: '/apps/user-profile/gallery', element: <Gallery /> },
       { path: '/apps/user-profile/profiletwo', element: <UserProfileTwo /> },
+      { path: '/apps/user-profile/daily-emails', element: <Daily_Emails /> },
+      { path: '/apps/user-profile/common-settings', element: <Common_Settings /> },
+      { path: '/apps/user-profile/order-panel-settings', element: <Order_Panel_Settings /> },
+      { path: '/apps/user-profile/supplier-spend-settings', element: <Supplier_Spend_Settings /> },
+      { path: '/apps/user-profile/contact-us', element: <Profile_Contact_Us /> },
+      { path: '/apps/user-profile/change-password', element: <Change_Password /> },
       { path: '/apps/user-profile/teams', element: <Teams /> },
       { path: '/apps/user-profile/projects', element: <Projects /> },
       { path: '/apps/user-profile/connections', element: <Connections /> },
